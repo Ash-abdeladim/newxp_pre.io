@@ -1,0 +1,36 @@
+.modal{
+    background-color: rgba(255, 0, 0, 0.582);
+    position: fixed; /* Use fixed positioning to keep the modal centered when scrolling */
+    top: 50%;
+    left: 50%;
+    // width: 600px;
+    // height: 60%;
+    transform: translate(-50%, -50%);
+    z-index: 100000;
+    border-radius: 20px;
+    // /* Add width and h
+    h2{
+        text-align: center;
+        color: white;
+    }
+    .close{
+        position:absolute;
+        right: 10px;
+        // color: ;
+        img{
+            width: 20px;
+        }
+    }
+    .form{
+        // height: 3;
+        display: grid;
+        height: 100%;
+        width: 100%;
+        justify-content: center;
+        margin: 5px;
+    }
+    input{
+        width: 100%;
+        outline: none;
+    }
+}

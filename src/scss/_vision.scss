@@ -1,0 +1,353 @@
+// .Vision {
+//     height: 100vh;
+//     // background-color: red;
+// }
+
+@media screen and (min-width:800px) {
+    .Vision {
+        // background-color: #11326b;
+        // background-image: linear-gradient(90deg, rgb(6 5 6) 0%, rgb(55 31 74) 48%, rgb(65 29 106) 64%, rgb(68 11 120) 83%, rgb(53 34 68 / 94%) 100%);
+        height: 100vh;
+        .none {
+            opacity: 0;
+        }
+
+        .nested_vision {
+            display: grid;
+            grid-template-columns: 50% 50%;
+            height: 100%;
+            width: 100%;
+            // border: 1px solid rgb(92, 0, 128);
+            font-family: 'Gilroy', sans-serif;
+            font-weight: 400;
+            font-size: 20px;
+
+            .div_swp {
+                justify-self: center;
+                align-self: center;
+                position: relative;
+                width: 80% !important;
+                height: 300px !important;
+                border: 1px solid rgba(226, 217, 217, 0.199);
+                border-radius: 20px;
+                opacity: 0;
+                animation: swpanime 3s forwards;
+                animation: verse 2s forwards;
+                animation-delay: 1s;
+
+                // height: 100%;
+                .swp_container {
+                    position: relative;
+                    width: 100% !important;
+                    height: 100% !important;
+                }
+
+                .mySwiper {
+                    border-radius: 20px;
+                    z-index: 0;
+                    height: 100%;
+
+                    div {
+                        height: 100%;
+                        width: 100%;
+
+                        img {
+                            object-position: center center;
+                            position: absolute;
+                            // height: 100%;
+                            // width: 100%;
+                        }
+
+                        h3 {
+                            position: absolute;
+                            color: white;
+                            bottom: 0;
+                            text-align: center;
+                            display: block;
+                            width: 100%;
+                        }
+                    }
+                }
+
+            }
+
+            .Vision_cards {
+                // border: 1px solid red;
+                display: grid;
+
+                div {
+                    align-self: center;
+                    margin-left: 10px;
+
+                    @font-face {
+                        font-family: header;
+                        src: url(./font/LIQUIDNIGHT-BF64bf9967d3b8f.ttf);
+                    }
+
+                    h1 {
+                        padding-top: 15px;
+                        color: white;
+                        font-family: header;
+                        margin: 0px;
+                        letter-spacing: 3px;
+                    }
+
+                    @font-face {
+                        font-family: text;
+                        src: url(./font/Gilroy-UltraLight.ttf);
+                    }
+
+                    .p_anime {
+                        color: rgba(255, 255, 255, 0.904);
+                        font-weight: 400;
+                        font-family: text;
+                        padding: 5px;
+                        animation: para 2s forwards;
+                        transition: 1s;
+                        opacity: 0;
+                        animation-delay: 2s;
+                        // background-color: rgba(80, 25, 131, 0.171);
+                        backdrop-filter: blur(5px);
+                        border-top-left-radius: 5px;
+                        border-bottom-left-radius: 5px;
+                    }
+
+                    .tag {
+                        background-color: purple;
+                        padding: 5px;
+                        color: white;
+                        border-radius: 8px;
+                        float: right;
+                        margin-right: 5px;
+                        cursor: pointer;
+                        border: 1px solid rgba(0, 0, 0, 0.486);
+                        box-shadow: -3px 3px 0px #ffffff45;
+                        transition: 200ms;
+                        margin-bottom: 8px;
+
+                    }
+
+                    .tag:hover {
+                        box-shadow: 3px 3px 0px #ffffff45
+                    }
+
+                    @keyframes para {
+                        from {
+                            transform: translateX(100%);
+                            opacity: 0;
+                        }
+
+                        to {
+                            opacity: 1;
+                            transform: translateX(0%);
+                        }
+                    }
+                    @keyframes verse {
+                        from {
+                            transform: translateX(-100%);
+                            opacity: 0;
+                        }
+
+                        to {
+                            opacity: 1;
+                            transform: translateX(0%);
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+@keyframes swpanime {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.none {
+    opacity: 0;
+}
+
+@media screen and (max-width:400px) {
+    .Vision {
+        box-sizing: border-box;
+        height: 100%;
+    }
+
+    .div_swp {
+        width: 90% !important;
+        height: 200px !important;
+    }
+
+}
+
+@media screen and (max-width:800px) {
+    .Vision {
+        // height: 100vh;
+        // height: 100% !important;
+        // border: 1px solid red;
+        background-image: linear-gradient(90deg, rgb(35, 11, 48) 0%, rgb(60, 12, 98) 48%, rgb(56, 20, 98) 64%, rgb(63, 25, 98) 83%, rgb(74, 47, 96) 100%);
+
+        .nested_vision {
+            opacity: 10;
+            margin-top: 5px;
+            padding-top: 10px;
+            // display: grid;
+            display: flex;
+            flex-direction: column;
+
+            .div_swp {
+                margin-top: 5px;
+                border: 1px solid rgba(161, 157, 157, 0.37);
+                height: 300px;
+                width: 80%;
+                z-index: 0;
+                margin: 0 auto;
+                border-radius: 20px;
+                box-shadow: -4px 0px 0px rgb(152 29 175 / 27%);
+                animation: swpanime 3s forwards;
+                animation-delay: 1;
+                opacity: 0;
+
+                .swp_container {
+                    height: 100%;
+                    width: 100%;
+
+                    .mySwiper {
+                        width: 100%;
+                        height: 100%;
+                        position: relative;
+                        z-index: 0;
+                        border-radius: 20px;
+
+                        img {
+                            position: absolute;
+                            width: 100%;
+                            height: 100%;
+                        }
+
+                        h3 {
+                            position: absolute;
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+
+    .Vision_cards {
+        @font-face {
+            font-family: header;
+            src: url(./font/LIQUIDNIGHT-BF64bf9967d3b8f.ttf);
+        }
+
+        h1 {
+            color: white;
+            font-family: header;
+            letter-spacing: 3px;
+            padding-left: 5px;
+        }
+
+        @font-face {
+            font-family: text;
+            src: url(./font/Gilroy-UltraLight.ttf);
+        }
+
+        .p_anime {
+            font-family: text;
+            color: white;
+            // border: 1px solid red;
+            padding: 5px;
+            // background-color: rgba(128, 0, 128, 0.26);
+            animation-delay: 2;
+            padding: 3px;
+            animation: para 2s forwards;
+            // height: 256px;
+            // overflow-y: auto;
+            // margin-bottom: 3px;
+        }
+
+        @keyframes para {
+            from {
+                transform: translateX(-100%);
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+                transform: translateX(0%);
+            }
+        }
+
+        @font-face {
+            font-family: tag;
+            src: url(./font/Gilroy-Bold.ttf);
+        }
+
+        .tag {
+            position: relative;
+            background-color: purple;
+            padding: 5px;
+            margin-top: 5px;
+            margin-bottom: 8px;
+            font-family: tag;
+            color: white;
+            border-radius: 8px;
+            float: right;
+            margin-right: 5px;
+            cursor: pointer;
+            border: 1px solid rgba(0, 0, 0, 0.486);
+            box-shadow: -3px 3px 0px #ffffff45;
+            transition: 200ms;
+        }
+
+        .tag:hover {
+            box-shadow: 3px 3px 0px #ffffff45
+        }
+    }
+}
+.Vision{
+    margin-bottom: 0px !important;
+    z-index: 5;
+    position: relative;
+    margin-bottom: 0px !important;
+    opacity: 10;
+    .nested_vision{
+        z-index: 10;
+        position: relative;
+    }
+    .tag{
+        // opacity: 10 !important;
+        // position: inherit;
+    }
+}
+.wdown{
+    height: auto;
+    width: 100vw;
+    position: absolute;
+    bottom: 0;
+    z-index: 0;
+    padding: 0px;
+    padding-bottom: auto;
+    margin: 0px;
+    // padding: auto;
+    width: 100%;
+    margin-bottom: 0px !important;
+    img{
+        width: 100%;
+        margin: 0px;
+        height: 100%;
+        width: 100%;
+        margin-bottom: 0px !important;
+        padding: 0px;
+        // height: 100%;
+        width: 100%;
+    }
+}

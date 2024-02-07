@@ -1,0 +1,123 @@
+.fd_img{
+    filter: brightness(100%) !important;
+}
+.found_container {
+    // height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    padding-bottom: 10px;
+    h1{
+        font-family: header;
+        text-align: center;
+        color: white;
+    }
+    h3 {
+        text-align: center;
+    }
+
+    h5 {
+        text-align: center;
+    }
+
+    .list_fd {
+        width: 99%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        color: white;
+        .card {
+            border-radius: 20px;
+            backdrop-filter: blur(5px);
+            background-color: rgba(3, 3, 3, 0.644);
+            box-shadow: 2px 2px 3px rgba(255, 255, 255, 0.493);
+            // border: 1px solid rgb(102, 255, 0);
+            // margin: ;
+            position: relative;
+            .social{
+                position: absolute;
+                bottom: 0;
+                right: 7px;
+                img{
+                    width: 20px;
+                    margin: 0px 3px;
+                }
+            }
+            p{
+                padding: 8px;
+                color: white;
+            }
+        }
+
+        .img_cont {
+            position: relative;
+            // border: 1px solid red;
+            display: grid;
+            justify-content: center;
+
+            .cir {
+                // position: absolute;
+                // top: 0;
+                // bottom: 0;
+                // right: 50%;
+                // transform: translate(0%,-50%);
+                // left: 0;
+                width: 200px;
+                z-index: 2;
+            }
+
+            .fd_img {
+                position: absolute;
+                left: 50%;
+                right: 50%;
+                top: 25%;
+                // filter: brightness(90%);
+                bottom: 50%;
+                transform: translate(-50%, 0px);
+                width: 90px;
+                border-radius: 60%;
+                filter: brightness(100%);
+            }
+        }
+    }
+}
+
+@media screen and (max-width:700px) {
+    .found_container {
+        width: 100%;
+        border: 1px solid rgb(0, 255, 170);
+        .list_fd {
+            width: 100%;
+            display: grid;
+            .card {
+                position: relative;
+                border-radius: 18px;
+                width: 90% !important;
+                margin: 0 auto;
+                backdrop-filter: blur(5px);
+                background-color: rgba(3, 3, 3, 0.644);
+                p {
+                    padding: 10px;
+                    color: white;
+                }
+                .fd_img{
+                    filter: brightness(100%);
+                }
+                .social{
+                    position: absolute;
+                    bottom: 0;
+                    right: 5px;
+                    img{
+                        height: 20px;
+                        width: 20px;
+                        margin: 0px 3px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+//
