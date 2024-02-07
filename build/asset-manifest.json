@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/static/css/main.68354a1f.css",
+    "main.js": "/static/js/main.7ff3e0f1.js",
+    "static/media/aym_r.png": "/static/media/aym_r.23d5622330978afbf5ab.png",
+    "static/media/contact.svg": "/static/media/contact.7f8ac2ceef3a5b67bb35289c0bf7b520.svg",
+    "static/media/Gilroy-UltraLight.ttf": "/static/media/Gilroy-UltraLight.768c44ec57dc827381b3.ttf",
+    "static/media/Gilroy-Bold.ttf": "/static/media/Gilroy-Bold.ca49f7658c4eaac78b6d.ttf",
+    "static/media/xp.png": "/static/media/xp.dfdf31dd0484f95d1b10.png",
+    "static/media/maroc.jpg": "/static/media/maroc.0e1d27413fda4453c361.jpg",
+    "static/media/vision.jpeg": "/static/media/vision.52b711b3c5f732f78e71.jpeg",
+    "static/media/hexa_r.png": "/static/media/hexa_r.756cd250f68c6de12fcb.png",
+    "static/media/meta.jpeg": "/static/media/meta.e4ddcb170393bffac040.jpeg",
+    "static/media/clts.jpeg": "/static/media/clts.efbe7452b3ca4bce2ff7.jpeg",
+    "static/media/ashh_r.png": "/static/media/ashh_r.f8e87d6dd141ce03ad81.png",
+    "static/media/bg_one.jpeg": "/static/media/bg_one.5235759fe99e927a78f4.jpeg",
+    "static/media/LIQUIDNIGHT-BF64bf9967d3b8f.ttf": "/static/media/LIQUIDNIGHT-BF64bf9967d3b8f.00d55af60b5d17dce242.ttf",
+    "static/media/worldwide.svg": "/static/media/worldwide.a428617c224f97f2b4cbeea9d7d1e29a.svg",
+    "static/media/github.svg": "/static/media/github.519fc2fc543258cf16879394241db99c.svg",
+    "static/media/setting.svg": "/static/media/setting.0d022923ae7ebed6b820c34012a0b663.svg",
+    "static/media/linkedin.svg": "/static/media/linkedin.cf47b08923d09fb2718c5661f291c02a.svg",
+    "static/media/trust.svg": "/static/media/trust.41e35de3effd0330601715ead1c82188.svg",
+    "static/media/close.svg": "/static/media/close.3f5008c5b8f3c8bd8519642ad2c857c7.svg",
+    "static/media/blob.svg": "/static/media/blob.5796687c6e4032d1b0479f24800db5f6.svg",
+    "static/media/leaf.svg": "/static/media/leaf.149a8e85e11bc4a6661b356e3c77fcaf.svg",
+    "static/media/phone.svg": "/static/media/phone.29c1b859ab2a91bcf86b56bfe27f9f34.svg",
+    "static/media/up.svg": "/static/media/up.746c1259bb4ea2b3fc3cedda496e10da.svg",
+    "index.html": "/index.html",
+    "static/media/wdown.svg": "/static/media/wdown.3f7fc96b0cf88a1723148aa9d1ef6c92.svg",
+    "static/media/wtop.svg": "/static/media/wtop.b16b9bfd33c3ec65b90a12631c37c56e.svg",
+    "main.68354a1f.css.map": "/static/css/main.68354a1f.css.map",
+    "main.7ff3e0f1.js.map": "/static/js/main.7ff3e0f1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.68354a1f.css",
+    "static/js/main.7ff3e0f1.js"
+  ]
+}

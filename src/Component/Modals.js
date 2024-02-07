@@ -1,7 +1,9 @@
 import React ,{useState} from 'react';
 import close from "close.svg"
 import axios from 'axios';
-
+import {Link} from "react-router-dom";
+import linkdin from "linkedin.svg"
+import contact from "contact.svg"
 
 const Modals = ({ onClose }) => {
     const countwidth = window.innerWidth;
@@ -35,6 +37,7 @@ const Modals = ({ onClose }) => {
             <div className="modal-content">
                 <span className="close" onClick={onClose}><img src={close} alt="close" /></span>
                 <h2>Contact Us</h2>
+                <div className="contact_img"><img src={contact} alt="contact" /></div>
                 <div className="form">
                     <form onSubmit={handleSubmit}>
                         <input type="text" name="name" value={formData.name} onChange={handleChange} placeholder="Name" />
@@ -50,6 +53,7 @@ const Modals = ({ onClose }) => {
                     </form>
                 </div>
             </div>
+            <Link><img src={linkdin} className="linkd" alt="linkdin" /></Link>
         </div >
     );
 };

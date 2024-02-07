@@ -7,7 +7,7 @@ import phone from "phone.svg"
 import wtop from "wtop.svg"
 
 function Goals() {
-  const [content, setContent] = useState(""); // Define state variable 'content' and its setter function 'setContent'
+  const [content, setContent] = useState("//Clique at items"); // Define state variable 'content' and its setter function 'setContent'
 
   return (
     <div className='goals_container'>

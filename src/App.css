@@ -854,8 +854,9 @@ body {
 }
 
 .modal {
-  background-color: rgba(255, 0, 0, 0.582);
-  position: fixed; /* Use fixed positioning to keep the modal centered when scrolling */
+  background-color: rgba(132, 0, 255, 0.808);
+  position: fixed;
+  /* Use fixed positioning to keep the modal centered when scrolling */
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -865,10 +866,25 @@ body {
 .modal h2 {
   text-align: center;
   color: white;
+  font-family: monospace;
+}
+.modal textarea {
+  background-color: plum;
+  border-radius: 10px;
+  padding: 10px;
+}
+.modal .contact_img {
+  width: 100%;
+  display: grid;
+}
+.modal .contact_img img {
+  width: 40%;
+  justify-self: center;
 }
 .modal .close {
   position: absolute;
   right: 10px;
+  cursor: pointer;
 }
 .modal .close img {
   width: 20px;
@@ -883,4 +899,33 @@ body {
 .modal input {
   width: 100%;
   outline: none;
+  background-color: plum;
+  border: none;
+  border-radius: 10px;
+  padding: 5px;
+}
+.modal button {
+  background-color: plum;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  color: rgb(32, 30, 30);
+  transition: 100ms;
+  cursor: pointer;
+}
+.modal button:hover {
+  color: white;
+  background-color: purple;
+}
+
+@media screen and (min-width: 500px) {
+  .modal {
+    width: 50% !important;
+  }
+}
+.linkd {
+  width: 20px;
+  position: absolute;
+  right: 8px;
+  bottom: 5px;
 }/*# sourceMappingURL=App.css.map */
