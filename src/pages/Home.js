@@ -15,7 +15,7 @@ const Footer = () => {
         <div className="year">
             <img src={logo} alt="copylogo" className="copy_logo"/>
             <br/>
-            <span>&copy;{year}</span>
+            <span>XP&copy;{year}</span>
         </div>
     );
 }
