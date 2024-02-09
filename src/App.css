@@ -633,10 +633,25 @@ body {
   margin-top: 0px;
   padding-top: 15px;
 }
-.goals_container .content {
+.goals_container .img_content {
   position: absolute;
   top: 50%;
   left: 50%;
+  background-position: center center;
+  height: 300px;
+  width: 300px;
+  transform: translate(-50%, -50%);
+  background-image: url("./pics/goals.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.goals_container .content {
+  position: absolute;
+  display: grid;
+  align-content: center;
+  top: 50%;
+  left: 50%;
+  height: 200px;
   transform: translate(-50%, -50%);
   padding: 5px;
   opacity: 1;

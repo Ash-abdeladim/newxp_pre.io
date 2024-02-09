@@ -5,32 +5,54 @@ import trust from "trust.svg"
 import leaf from "leaf.svg"
 import phone from "phone.svg"
 import wtop from "wtop.svg"
+import wrd from "worldw.svg"
+import offr from "offr2.svg"
+import erth from "erth.svg"
+import fcl from "fcl.svg"
+import inv from "inv.svg"
+
 
 function Goals() {
   const [content, setContent] = useState("//Clique at items"); // Define state variable 'content' and its setter function 'setContent'
 
   return (
     <div className='goals_container'>
-      <div className='wtop'><img src={wtop} alt='wtop'/></div>
+      <div className='wtop'><img src={wtop} alt='wtop' /></div>
       <h1 className='Goals_header'>GOAls</h1>
+      <div className='img_content'></div>
       <div className='content'><p>{content}</p></div>
       <div className='Goals_cards'>
         {/* Clicking on this div sets the content state */}
         <div className='gls' onClick={() => {
+          const target = document.getElementsByClassName("img_content")[0];
+          target.style.backgroundImage = `url(${wrd})`;
+          target.style.height = ""
           setContent("Create an influential ready-to-wear brand, which will be a leader in Morocco and competitive abroad.");
-        }}><img src={worlwide} alt="worldw"/></div>
-        <div className='gls' onClick={()=>{
+        }}><img src={worlwide} alt="worldw" /></div>
+        <div className='gls' onClick={() => {
+          const target = document.getElementsByClassName("img_content")[0];
+          target.style.backgroundImage = `url(${offr})`;
+          target.style.height = "400px"
           setContent("OFFERING PRODUCTS THAT SATISFY CUSTOMER NEEDSAND RESPECT THEIR PURCHASING POWER .");
-        }}><img src={trust} alt="worldw"/></div>
-        <div className='gls' onClick={()=>{
+        }}><img src={trust} alt="worldw" /></div>
+        <div className='gls' onClick={() => {
+          const target = document.getElementsByClassName("img_content")[0];
+          target.style.backgroundImage = `url(${erth})`;
+          target.style.height = ""
           setContent("COMMITMENT TO SUSTAINABILITY")
-        }}><img src={leaf} alt="worldw"/></div>
-        <div className='gls' onClick={()=>{
+        }}><img src={leaf} alt="worldw" /></div>
+        <div className='gls' onClick={() => {
+          const target = document.getElementsByClassName("img_content")[0];
+          target.style.backgroundImage = `url(${fcl})`;
+          target.style.height = ""
           setContent("FACILITATING THE READY-TO-WEAR PURCHASING SERVICE")
-        }}><img src={phone} alt="worldw"/></div>
-        <div className='gls' onClick={()=>{
+        }}><img src={phone} alt="worldw" /></div>
+        <div className='gls' onClick={() => {
+          const target = document.getElementsByClassName("img_content")[0];
+          target.style.backgroundImage = `url(${inv})`;
+          target.style.height = ""
           setContent("-INNOVATION AND CREATIVITY")
-        }}><img src={setting} alt="worldw"/></div>
+        }}><img src={setting} alt="worldw" /></div>
       </div>
     </div>
   );
