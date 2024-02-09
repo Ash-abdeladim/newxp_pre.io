@@ -1,0 +1,145 @@
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 60px;
+}
+
+// #app {
+//     height: 100%
+// }
+
+// html,
+// body {
+//     position: relative;
+//     height: 100%;
+// }
+
+// body {
+//     background: #eee;
+//     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+//     font-size: 14px;
+//     color: #000;
+//     margin: 0;
+//     padding: 0;
+// }
+
+// body {
+//     background: #fff;
+//     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+//     font-size: 14px;
+//     color: #000;
+//     margin: 0;
+//     padding: 0;
+// }
+
+// html,
+// body {
+//     position: relative;
+//     height: 100%;
+// }
+
+#app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+// .swiper {
+//     width: 240px;
+//     height: 320px;
+// }
+
+.swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 18px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.swiper-slide:nth-child(1n) {
+    background-color: rgb(27, 24, 24);
+}
+
+.swiper-slide:nth-child(2n) {
+    background-color: rgb(27, 24, 24);
+}
+
+.swiper-slide:nth-child(3n) {
+    background-color: rgb(27, 24, 24);
+}
+
+
+
+.Cardmx_swp{
+    width: 240px;
+    height: 320px;
+    // display: flex;
+    // flex-direction: column;
+    .mxcard{
+        display: grid;
+        grid-template-rows: 50% auto;
+        .mg_container{
+            position: relative;
+            display: grid;
+            justify-content: center;
+            // border: 1px solid green;
+            .mx_cirle{
+                position: relative;
+                width: 100px;          
+            }
+            .mx_pic{
+                width: 80px !important;
+                height: 80px;
+                filter: brightness(100%) !important;
+                position: absolute;
+                left: 50%;
+                right: 50%;
+                top: 30%;
+                // filter: brightness(90%);
+                bottom: 50%;
+                transform: translate(-50%, 0px);
+                width: 90px;
+                border-radius: 40%;
+                filter: brightness(100%);
+            }
+        }
+        .data_fd{
+            padding: 0px;
+            
+        }
+        h3{
+            font-size: 16px;
+            padding: 0px !important;
+            margin: 0px;
+            // border: 1px solid red;
+        }
+        h5{
+            margin: 0px;
+            font-size: 10px;
+            // padding: 0px !important;
+            // border: 1px solid red;
+            // border-top: 1px solid white;
+            padding-top: 5px;
+            font-family: monospace;
+        }
+        p{
+            font-size: 14px;
+            font-family: monospace;
+        }
+        .sc{
+            position: absolute;
+            display: flex;
+            gap: 3px;
+            img{
+                width: 14px;
+            }
+            bottom: 6px;
+            right: 6px;
+        }
+    }
+}
+.up{
+    z-index: 1000;
+}

@@ -17,11 +17,9 @@
             grid-template-columns: 50% 50%;
             height: 100%;
             width: 100%;
-            // border: 1px solid rgb(92, 0, 128);
             font-family: 'Gilroy', sans-serif;
             font-weight: 400;
             font-size: 20px;
-
             .div_swp {
                 justify-self: center;
                 align-self: center;
@@ -35,7 +33,6 @@
                 animation: verse 2s forwards;
                 animation-delay: 1s;
 
-                // height: 100%;
                 .swp_container {
                     position: relative;
                     width: 100% !important;
@@ -102,10 +99,10 @@
                         font-weight: 400;
                         font-family: text;
                         padding: 5px;
-                        animation: para 2s forwards;
-                        transition: 1s;
+                        animation: para 2s ease-in forwards;
+                        transition: 1s ease-in;
                         opacity: 0;
-                        animation-delay: 2s;
+                        animation-delay: 1s;
                         // background-color: rgba(80, 25, 131, 0.171);
                         backdrop-filter: blur(5px);
                         border-top-left-radius: 5px;

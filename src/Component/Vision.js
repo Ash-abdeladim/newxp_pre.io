@@ -9,7 +9,7 @@ function Vision() {
   const { ref:myelem, inView:checkvis } = useInView();
 
   return (
-    <div className='Vision'>
+    <div id='vs' className='Vision'>
       <div className='nested_vision'>
         {/* <img src={vision} alt="vision"/> */}
         <div className={checkvis ? "div_swp" : "none"} ref={myelem}>

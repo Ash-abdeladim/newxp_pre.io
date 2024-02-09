@@ -398,10 +398,10 @@ body {
     font-weight: 400;
     font-family: text;
     padding: 5px;
-    animation: para 2s forwards;
-    transition: 1s;
+    animation: para 2s ease-in forwards;
+    transition: 1s ease-in;
     opacity: 0;
-    animation-delay: 2s;
+    animation-delay: 1s;
     -webkit-backdrop-filter: blur(5px);
             backdrop-filter: blur(5px);
     border-top-left-radius: 5px;
@@ -767,8 +767,10 @@ body {
 }
 .found_container h3 {
   text-align: center;
+  margin: 0;
 }
 .found_container h5 {
+  margin-top: 5px;
   text-align: center;
 }
 .found_container .list_fd {
@@ -824,7 +826,6 @@ body {
 @media screen and (max-width: 700px) {
   .found_container {
     width: 100%;
-    border: 1px solid rgb(0, 255, 170);
   }
   .found_container .list_fd {
     width: 100%;
@@ -943,4 +944,101 @@ body {
   position: absolute;
   right: 8px;
   bottom: 5px;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 60px;
+}
+
+#app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 18px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.swiper-slide:nth-child(1n) {
+  background-color: rgb(27, 24, 24);
+}
+
+.swiper-slide:nth-child(2n) {
+  background-color: rgb(27, 24, 24);
+}
+
+.swiper-slide:nth-child(3n) {
+  background-color: rgb(27, 24, 24);
+}
+
+.Cardmx_swp {
+  width: 240px;
+  height: 320px;
+}
+.Cardmx_swp .mxcard {
+  display: grid;
+  grid-template-rows: 50% auto;
+}
+.Cardmx_swp .mxcard .mg_container {
+  position: relative;
+  display: grid;
+  justify-content: center;
+}
+.Cardmx_swp .mxcard .mg_container .mx_cirle {
+  position: relative;
+  width: 100px;
+}
+.Cardmx_swp .mxcard .mg_container .mx_pic {
+  width: 80px !important;
+  height: 80px;
+  filter: brightness(100%) !important;
+  position: absolute;
+  left: 50%;
+  right: 50%;
+  top: 30%;
+  bottom: 50%;
+  transform: translate(-50%, 0px);
+  width: 90px;
+  border-radius: 40%;
+  filter: brightness(100%);
+}
+.Cardmx_swp .mxcard .data_fd {
+  padding: 0px;
+}
+.Cardmx_swp .mxcard h3 {
+  font-size: 16px;
+  padding: 0px !important;
+  margin: 0px;
+}
+.Cardmx_swp .mxcard h5 {
+  margin: 0px;
+  font-size: 10px;
+  padding-top: 5px;
+  font-family: monospace;
+}
+.Cardmx_swp .mxcard p {
+  font-size: 14px;
+  font-family: monospace;
+}
+.Cardmx_swp .mxcard .sc {
+  position: absolute;
+  display: flex;
+  gap: 3px;
+  bottom: 6px;
+  right: 6px;
+}
+.Cardmx_swp .mxcard .sc img {
+  width: 14px;
+}
+
+.up {
+  z-index: 1000;
 }/*# sourceMappingURL=App.css.map */

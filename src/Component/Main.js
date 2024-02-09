@@ -44,10 +44,10 @@ function Navmax() {
                 </div>
                 {isopen && (
                     <div className='burger_menu'>
-                        <div><Link to="/">AbOut</Link></div>
-                        <div><Link to="/">VisIon</Link></div>
-                        <div><Link to="/">GoAls</Link></div>
-                        <div><Link to="/">Founder's</Link></div>
+                        <div><a href="#one">AbOut</a></div>
+                        <div><a href="#vs">VisIon</a></div>
+                        <div><a href="#goals">GoAls</a></div>
+                        <div><a href="#founders">Founder's</a></div>
                     </div>
                 )}
             </div >
@@ -102,10 +102,10 @@ function Navmin() {
             <div className={`Navmin ${isScrolled ? 'shrunk' : ''}`}>
                 <div className='logo_container'><img src={xp} alt="logo" /></div>
                 <div className='links'>
-                    <Link to="/">AbOut</Link>
-                    <Link to="/">VisIon</Link>
-                    <Link to="/">GoAls</Link>
-                    <Link to="/">Founder's</Link>
+                    <a href="#one">AbOut</a>
+                    <a href="#vs">VisIon</a>
+                    <a href="#goals">GoAls</a>
+                    <a href="#founders">Founder's</a>
                     <button className='contact' onClick={ModalActive}>Contact</button>
                 </div>
             </div>

@@ -13,10 +13,10 @@ import inv from "inv.svg"
 
 
 function Goals() {
-  const [content, setContent] = useState("//Clique at items"); // Define state variable 'content' and its setter function 'setContent'
+  const [content, setContent] = useState(""); // Define state variable 'content' and its setter function 'setContent'
 
   return (
-    <div className='goals_container'>
+    <div id='goals' className='goals_container'>
       <div className='wtop'><img src={wtop} alt='wtop' /></div>
       <h1 className='Goals_header'>GOAls</h1>
       <div className='img_content'></div>

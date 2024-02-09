@@ -53,7 +53,7 @@ const Modals = ({ onClose }) => {
                     </form>
                 </div>
             </div>
-            <Link><img src={linkdin} className="linkd" alt="linkdin" /></Link>
+            <Link to="https://www.linkedin.com/company/x-phenix"><img src={linkdin} className="linkd" alt="linkdin" /></Link>
         </div >
     );
 };
