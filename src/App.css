@@ -696,6 +696,20 @@ body {
 .goals_container .Goals_cards .gls img {
   padding: 3px;
   height: 30px;
+  animation-name: rotatin;
+  animation-duration: 4s;
+  transition: 2s;
+}
+.goals_container .Goals_cards .gls img:hover {
+  transform: rotate(360deg);
+}
+@keyframes rotatin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 .goals_container .Goals_cards .gls:nth-child(odd) {
   display: grid;
