@@ -780,6 +780,7 @@ body {
   color: white;
 }
 .found_container h3 {
+  font-family: sans-serif;
   text-align: center;
   margin: 0;
 }
@@ -813,6 +814,7 @@ body {
   margin: 0px 3px;
 }
 .found_container .list_fd .card p {
+  font-family: monospace;
   padding: 8px;
   color: white;
 }
