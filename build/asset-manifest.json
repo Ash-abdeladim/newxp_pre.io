@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.317f84f9.css",
-    "main.js": "/static/js/main.dc5e6a94.js",
+    "main.css": "/static/css/main.11e262ce.css",
+    "main.js": "/static/js/main.53e2b160.js",
     "static/media/aym_r.png": "/static/media/aym_r.23d5622330978afbf5ab.png",
     "static/media/contact.svg": "/static/media/contact.7f8ac2ceef3a5b67bb35289c0bf7b520.svg",
     "static/media/Gilroy-UltraLight.ttf": "/static/media/Gilroy-UltraLight.768c44ec57dc827381b3.ttf",
@@ -34,11 +34,11 @@
     "index.html": "/index.html",
     "static/media/wdown.svg": "/static/media/wdown.7616d5dd4045ad36560186a1538ba742.svg",
     "static/media/wtop.svg": "/static/media/wtop.3d9e7d857a324cb0778a0ca83caa0263.svg",
-    "main.317f84f9.css.map": "/static/css/main.317f84f9.css.map",
-    "main.dc5e6a94.js.map": "/static/js/main.dc5e6a94.js.map"
+    "main.11e262ce.css.map": "/static/css/main.11e262ce.css.map",
+    "main.53e2b160.js.map": "/static/js/main.53e2b160.js.map"
   },
   "entrypoints": [
-    "static/css/main.317f84f9.css",
-    "static/js/main.dc5e6a94.js"
+    "static/css/main.11e262ce.css",
+    "static/js/main.53e2b160.js"
   ]
 }
