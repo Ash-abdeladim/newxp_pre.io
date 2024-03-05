@@ -1,5 +1,5 @@
 {
-  "home":"https://github.com/Ash-abdeladim/newxp_pre.io",
+  "home": "https://github.com/Ash-abdeladim/newxp_pre.io",
   "name": "xphenix",
   "version": "0.1.0",
   "private": true,
@@ -20,8 +20,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "predeploy":"react-scripts build",
-    "deploy":"gh-pages -d build",
+    "predeploy": "react-scripts build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
